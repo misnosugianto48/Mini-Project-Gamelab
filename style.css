@@ -106,7 +106,7 @@ body {
 }
 .service_section {
   margin-top: -10px;
-  background-color: #beeaff;
+  /* background-color: #beeaff; */
 }
 .service_item {
   margin-bottom: 20px;
@@ -157,7 +157,7 @@ body {
 
 .service-card {
   height: auto;
-  background-color: #b0c4de  ;
+  /* background-color: #b0c4de  ; */
   border: 1px solid #dee2e6;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
