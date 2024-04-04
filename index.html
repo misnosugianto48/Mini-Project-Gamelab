@@ -19,11 +19,8 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav
-      class="navbar sticky-top navbar-expand-lg"
-      style="background-color: #e3f2fd"
-    >
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body sticky-top">
+      <div class="container">
         <a class="navbar-brand" href="#">LaunDry</a>
         <button
           class="navbar-toggler"
@@ -37,35 +34,24 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                id="link-about"
-                aria-current="page"
-                href="#about_section"
-                >About Us</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Service</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                id="link-pricing"
-                href="#pricing_section"
-                >Pricing</a
-              >
-            </li>
-          </ul>
-          <div class="d-flex">
-            <button class="btn btn-outline-dark me-4" type="submit">
-              Sign In
-            </button>
+          <div class="mx-auto gap-4 navbar-nav">
+            <a
+              class="link text-regular px-3 py-2 align-self-center text-decoration-none text-dark"
+              href="#"
+              >Home</a
+            ><a
+              class="link text-regular px-3 py-2 align-self-center text-decoration-none text-dark"
+              href="#about_section"
+              >About Us</a
+            ><a
+              class="link text-regular px-3 py-2 align-self-center text-decoration-none text-dark"
+              href="#service_section"
+              >Service</a
+            ><a
+              class="link text-regular px-3 py-2 align-self-center text-decoration-none text-dark"
+              href="#pricing_section"
+              >Pricing</a
+            >
           </div>
         </div>
       </div>
@@ -77,6 +63,7 @@
       class="bsb-hero-1 px-3 bsb-overlay bsb-hover-pull"
       style="
         background-image: url('https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+        height: 93vh;
       "
     >
       <div class="container">
@@ -91,12 +78,13 @@
               fragrant
             </p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button
-                type="button"
-                class="btn bsb-btn-xl btn-info gap-3 text-light"
+              <a
+                href="https://api.whatsapp.com/send?phone=+6282288767135&amp;text=Halo%20Admin%2C%20saya%20ingin%20mulai%20mencuci..."
+                target="_blank"
+                class="btn bsb-btn-xl btn-warning gap-3 text-light"
               >
-                Get Started
-              </button>
+                Mulai Mencuci
+              </a>
             </div>
           </div>
         </div>
@@ -150,13 +138,13 @@
       <path
         fill="#beeaff"
         fill-opacity="1"
-        d="M0,192L18.5,202.7C36.9,213,74,235,111,208C147.7,181,185,107,222,101.3C258.5,96,295,160,332,186.7C369.2,213,406,203,443,192C480,181,517,171,554,138.7C590.8,107,628,53,665,74.7C701.5,96,738,192,775,224C812.3,256,849,224,886,192C923.1,160,960,128,997,138.7C1033.8,149,1071,203,1108,186.7C1144.6,171,1182,85,1218,80C1255.4,75,1292,149,1329,186.7C1366.2,224,1403,224,1422,224L1440,224L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"
+        d="M0,288L48,250.7C96,213,192,139,288,128C384,117,480,171,576,208C672,245,768,267,864,240C960,213,1056,139,1152,133.3C1248,128,1344,192,1392,224L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
       ></path>
     </svg>
     <!-- end about section -->
 
     <!-- Service section -->
-    
+
     <section class="service_section layout_padding" id="service_section">
       <div class="container">
         <div class="row">
@@ -165,7 +153,7 @@
               <h2>Service</h2>
             </div>
           </div>
-    
+
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-12">
@@ -173,28 +161,34 @@
                   <div class="card-body">
                     <h3 class="card-title text-center">Cuci Kering Pakaian</h3>
                     <img
-                    src="https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?q=80&w=2039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Mencuci Pakaian" style="width:100%">
-                 
-                    <p class="card-text">mencuci segala jenis pakaian dan bahan pakaian.</p>
+                      src="https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?q=80&w=2039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="Mencuci Pakaian"
+                      style="width: 100%"
+                    />
+
+                    <p class="card-text">
+                      mencuci segala jenis pakaian dan bahan pakaian.
+                    </p>
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-md-12">
                 <div class="card service_item service-card">
                   <div class="card-body">
                     <h3 class="card-title text-center">Cuci dan Setrika</h3>
                     <img
-                src="https://images.pexels.com/photos/5202801/pexels-photo-5202801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Menyetrika Pakaian"style="width:100%">
+                      src="https://images.pexels.com/photos/5202801/pexels-photo-5202801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                      alt="Menyetrika Pakaian"
+                      style="width: 100%"
+                    />
                     <p class="card-text">Menyetrika pakaian setelah dicuci.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-    
+
           <div class="col-md-6">
             <div class="column">
               <div class="col-md-12">
@@ -202,21 +196,28 @@
                   <div class="card-body">
                     <h3 class="card-title text-center">Cuci Karpet dan Sofa</h3>
                     <img
-                    src="https://images.unsplash.com/photo-1520434901111-8e9bcb42c628?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                    alt="Dry Cleaning" style="width:100%">
+                      src="https://images.unsplash.com/photo-1520434901111-8e9bcb42c628?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                      alt="Dry Cleaning"
+                      style="width: 100%"
+                    />
                     <p class="card-text">mencuci karpet dan Sofa anda.</p>
                   </div>
                 </div>
               </div>
-    
+
               <div class="col-md-12">
                 <div class="card service_item service-card">
                   <div class="card-body">
                     <h3 class="card-title text-center">Jasa Antar-Jemput</h3>
                     <img
-                src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_500/v1531197201/m7qco3amtwo1oqjv8thz.jpg"
-                alt="Jasa Antar-Jemput" style="width:100%">
-                    <p class="card-text text-align">Menjemput Pakaian Yang akan dicuci dan mengantar ketika selesai .</p>
+                      src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_500/v1531197201/m7qco3amtwo1oqjv8thz.jpg"
+                      alt="Jasa Antar-Jemput"
+                      style="width: 100%"
+                    />
+                    <p class="card-text text-align">
+                      Menjemput Pakaian Yang akan dicuci dan mengantar ketika
+                      selesai .
+                    </p>
                   </div>
                 </div>
               </div>
@@ -225,14 +226,6 @@
         </div>
       </div>
     </section>
-
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#beeaff"
-        fill-opacity="1"
-        d="M0,0L18.5,32C36.9,64,74,128,111,170.7C147.7,213,185,235,222,208C258.5,181,295,107,332,64C369.2,21,406,11,443,10.7C480,11,517,21,554,48C590.8,75,628,117,665,149.3C701.5,181,738,203,775,181.3C812.3,160,849,96,886,90.7C923.1,85,960,139,997,144C1033.8,149,1071,107,1108,85.3C1144.6,64,1182,64,1218,85.3C1255.4,107,1292,149,1329,149.3C1366.2,149,1403,107,1422,85.3L1440,64L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"
-      ></path>
-    </svg>
     <!-- end Service section -->
 
     <!-- pricing section -->
@@ -254,21 +247,11 @@
           <div class="col-md-4">
             <div class="pricing_item">
               <img
-                src="https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?q=80&w=2039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Mencuci Pakaian"
-              />
-              <h3>Mencuci Pakaian</h3>
-              <p>Harga: Rp.5000 per kg</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="pricing_item">
-              <img
                 src="https://images.pexels.com/photos/5202801/pexels-photo-5202801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Menyetrika Pakaian"
               />
-              <h3>Menyetrika Pakaian</h3>
-              <p>Harga: Rp.3000 per item</p>
+              <h3>Cuci dan Setrika</h3>
+              <p>Harga: Rp.5000 per item</p>
             </div>
           </div>
           <div class="col-md-4">
@@ -277,7 +260,7 @@
                 src="https://images.pexels.com/photos/4107284/pexels-photo-4107284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Cuci Karpet dan Perlengkapan Rumah Tangga"
               />
-              <h3>Cuci Karpet dan Perlengkapan Rumah Tangga</h3>
+              <h3>Cuci Karpet dan Sofa</h3>
               <p>Harga: Rp.10.000 /m<sup>2</sup></p>
             </div>
           </div>
@@ -324,40 +307,71 @@
         </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path
-        fill="#beeaff"
-        fill-opacity="1"
-        d="M0,0L18.5,32C36.9,64,74,128,111,170.7C147.7,213,185,235,222,208C258.5,181,295,107,332,64C369.2,21,406,11,443,10.7C480,11,517,21,554,48C590.8,75,628,117,665,149.3C701.5,181,738,203,775,181.3C812.3,160,849,96,886,90.7C923.1,85,960,139,997,144C1033.8,149,1071,107,1108,85.3C1144.6,64,1182,64,1218,85.3C1255.4,107,1292,149,1329,149.3C1366.2,149,1403,107,1422,85.3L1440,64L1440,0L1421.5,0C1403.1,0,1366,0,1329,0C1292.3,0,1255,0,1218,0C1181.5,0,1145,0,1108,0C1070.8,0,1034,0,997,0C960,0,923,0,886,0C849.2,0,812,0,775,0C738.5,0,702,0,665,0C627.7,0,591,0,554,0C516.9,0,480,0,443,0C406.2,0,369,0,332,0C295.4,0,258,0,222,0C184.6,0,148,0,111,0C73.8,0,37,0,18,0L0,0Z"
-      ></path>
-    </svg>
     <!-- end pricing section -->
 
     <!-- footer -->
-    <footer
-      class="nav navbar sticky-top navbar-expand-lg"
-      style="background-color: #e3f2fd"
-    >
-      <div class="container p-2">
-        <div class="col-md-4">
-          <h6>Contact Us</h6>
-          <div class="col-md-12">
-            <a href="mailto:">mail@example.com</a>
-            <p>(+62) 876-2342-6574</p>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center m-3"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 LaunDry</span>
+        </div>
+        <div
+          class="nav justify-content-end list-unstyled d-flex gap-3 row row-cols-md-4"
+        >
+          <div class="col">
+            <a
+              href="https://api.whatsapp.com/send?phone=+6282288767135&amp;text=Halo%20Admin%2C%20saya%20ingin%20bertanya%20nih..."
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                width="1em"
+                height="1em"
+                fill="currentColor"
+                class="text-success"
+              >
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                ></path></svg
+            ></a>
+          </div>
+          <div class="col">
+            <a href="https://www.instagram.com/exampleUser/" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                width="1em"
+                height="1em"
+                fill="purple"
+                fill-opacity="1"
+                class="text-success"
+              >
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+                ></path></svg
+            ></a>
+          </div>
+          <div class="col">
+            <a href="mailto:mailexample@mail.com" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                width="1em"
+                height="1em"
+                fill="red"
+                opacity-fill="1"
+                class="text-success"
+              >
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"
+                ></path></svg
+            ></a>
           </div>
         </div>
-        <div class="col-md-4">
-          <h6>Follow Us</h6>
-          <div class="col-md-4">
-            <a href="">Instagram</a>
-            <a href="">Facebook</a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h6>Get Started</h6>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <!-- end footer -->
 
     <script
