@@ -50,6 +50,25 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.pricing_item {
+  margin-bottom: 20px;
+  animation: fadeInUp 1s ease both;
+}
+
+.pricing_item p {
+  margin-top: 10px;
+}
+
+.heading_container h2 {
+  text-align: center;
+}
+
+.pricing_item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -76,6 +95,17 @@ body {
 
 .fade-in {
   animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {
