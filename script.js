@@ -12,3 +12,18 @@ $(document).ready(function () {
       }
     });
   });
+
+$(document).ready(function () {
+  $(".pricing_item").fadeIn(1000);
+
+  $(window).scroll(function () {
+    $(".pricing_item").each(function () {
+      var position = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+
+      if (position < scroll + $(window).height() - 200) {
+        $(this).fadeIn(1000);
+      }
+    });
+  });
+});
