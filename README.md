@@ -36,10 +36,6 @@
 
     [![jquery][jquery]][JQuery-Url]
 
-### 📑 Dalam pengerjaan
-
-- **About Us**: Modifikasi responsive for mobile user.
-
 ### 🔓 Kontribusi
 
 - Silahkan Fork repository untuk berkontribusi dan pull request dengan format commit seperti contoh.
