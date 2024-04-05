@@ -20,7 +20,7 @@
 ### 🚀 Fungsi utama landing page
 
 - **About Us**: Menampilkan terkait tentang umkm yang dimaksudkan atau umkm yang dibuatkan landing page guna membuat umkm lebih menjual.
-- **Service** : Service nya sendiri terdapat beberapa macam diantaranya Cuci - Setrika, Cuci, Setrika, Bed Cover, Sprai.
+- **Service** : Service nya sendiri terdapat beberapa macam diantaranya Cuci Kering Pakaian, Cuci Karpet dan Sofa , Cuci dan Setrika,Jasa Antar jemput.
 - **Pricing** : Harga terkait dengan service yang diberikan adalah salah satu yang terpenting dalam penjualan jasa.
 
 ### ⚙️ Teknologi Pengembangan
@@ -38,11 +38,7 @@
 
 ### 📑 Dalam pengerjaan
 
-- **About Us**: Page section about us tentang latar belakang umkm, mix sekalian dengan JQuery Event dan DOM.
-
-- **Service**: Page section service menampilkan service yang disediakan dari umkm, mix untuk JQuery Event dan DOM.
-
-- **Pricing**: Page section pricing menampilkan harga perservice, mix dengan JQuery Event dan DOM.
+- **About Us**: Modifikasi responsive for mobile user.
 
 ### 🔓 Kontribusi
 
