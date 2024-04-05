@@ -18,8 +18,10 @@ body {
 }
 
 .about_section .img-box img {
-  width: 500px;
+  /* width: 500px; */
   position: relative;
+  max-width: 100%;
+  height: auto;
 }
 
 .about_section .img-box::before {
@@ -27,10 +29,11 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 250px;
-  height: 250px;
+  width: 50%;
+  height: 50%;
   background-color: #160e0b;
 }
+
 
 .about_section .detail-box p {
   margin-top: 10px;
@@ -53,6 +56,18 @@ body {
   color: rgb(243, 242, 242);
 }
 
+@media (max-width: 768px) {
+  .about_section .detail-box h2 {
+    font-size: 24px;
+  }
+  .about_section .detail-box p {
+    font-size: 14px;
+  }
+  .about_section .detail-box a {
+    padding: 8px 40px;
+    font-size: 14px;
+  }
+}
 
 .pricing_section {
   margin-top: -10px;
