@@ -1,0 +1,70 @@
+{
+  "status": "sucess",
+  "statusCode": 200,
+  "data": {
+    "service":[
+      {
+        "id": 1,
+        "title": "Cuci Kering Pakaian",
+        "servicePictureUrl": "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?q=80&w=2039&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Mencuci segala jenis pakaian dan bahan pakaian."
+      },
+      {
+        "id": 2,
+        "title": "Cuci dan Setrika",
+        "servicePictureUrl": "https://images.pexels.com/photos/5202801/pexels-photo-5202801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "description": "Menyetrika pakaian setelah dicuci."
+      },
+      {
+        "id": 3,
+        "title": "Cuci Karpet dan Sofa",
+        "servicePictureUrl": "https://images.unsplash.com/photo-1520434901111-8e9bcb42c628?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "Mencuci karpet dan Sofa anda"
+      },
+      {
+        "id": 4,
+        "title": "Jasa Antar-Jemput",
+        "servicePictureUrl": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_500/v1531197201/m7qco3amtwo1oqjv8thz.jpg",
+        "description": "Jasa antar jemput pakaian siap cuci ataupun akan cuci."
+      }
+    ],
+    "pricing":[
+      {
+        "id": 1,
+        "title": "Cuci dan Setrika",
+        "pricingPictureUrl": "https://images.pexels.com/photos/5202801/pexels-photo-5202801.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": "Rp. 15.000/item"
+      },
+      {
+        "id": 2,
+        "title": "Cuci Karpet dan Sofa",
+        "pricingPictureUrl": "https://images.pexels.com/photos/4107284/pexels-photo-4107284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "price": "Rp. 10.000/m2"
+      },
+      {
+        "id": 3,
+        "title": "Dry Cleaning",
+        "pricingPictureUrl": "https://images.unsplash.com/photo-1520434901111-8e9bcb42c628?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "Rp. 15.000/item"
+      },
+      {
+        "id": 4,
+        "title": "Laundry Kiloan",
+        "pricingPictureUrl": "https://images.unsplash.com/photo-1635274605638-d44babc08a4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": "Rp. 6.000/kg"
+      },
+      {
+        "id": 5,
+        "title": "Jasa Antar-Jemput",
+        "pricingPictureUrl": "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_500/v1531197201/m7qco3amtwo1oqjv8thz.jpg",
+        "price": "Mulai Rp. 5.000 tergantung jarak"
+      },
+      {
+        "id": 6,
+        "title": "Layanan Online",
+        "pricingPictureUrl": "https://1010dry.id/static/images/5e6ddb692a2a13f15e3411da9ae25f70.jpeg",
+        "price": "Free atau Berlangganan Rp. 100.000/bulan"
+      }
+    ]
+  }
+}
